@@ -1,6 +1,8 @@
 import React from 'react'
-import '../styles/home.scss';
+import '../styles/Home.scss';
+
 import vg from '../assets/2.webp';
+
 import {AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram} from 'react-icons/ai';
 
 const Home = () => {
