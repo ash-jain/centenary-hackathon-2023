@@ -7,7 +7,7 @@ const Footer = () => {
 
         <div id='rights'>
             <h1>VJTI Alumni Association</h1>
-            <p>@all right reserved</p>
+            <p>@all rights reserved</p>
         </div> 
 
          <div>

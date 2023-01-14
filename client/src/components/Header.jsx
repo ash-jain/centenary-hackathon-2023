@@ -6,10 +6,10 @@ const Header = () => {
     <nav>
         <main>
             <HashLink to={ "/#home" }> Home </HashLink>
-            <HashLink to={ "/login" }> Login </HashLink>
             <HashLink to={ "/#about" }> About </HashLink>
-            <HashLink to={ "/#brands" }> Brands </HashLink>
-            <HashLink to={ "/services" }> Services </HashLink>
+            <HashLink to={ "/events" }> Events </HashLink>
+            <HashLink to={ "/login" }> Login </HashLink>
+            <HashLink to={ "/services" }> Notable Alumni </HashLink>
         </main>
     </nav>
   )

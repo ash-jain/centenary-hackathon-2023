@@ -3,7 +3,8 @@ import '../styles/Home.scss';
 
 import vg from '../assets/2.webp';
 
-import {AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram} from 'react-icons/ai';
+import {AiFillInstagram} from 'react-icons/ai';
+import {TiSocialLinkedinCircular, TiMail, TiSocialTwitter} from 'react-icons/ti';
 
 const Home = () => {
   return (
@@ -45,23 +46,23 @@ const Home = () => {
             <article>
 
                 <div style={{animationDelay:"0.3s"}}>
-                    <AiFillGoogleCircle />
-                    <p>Google</p>
+                    <TiSocialLinkedinCircular />
+                    <a target="_blank" href="https://in.linkedin.com/in/vjti-alumni-association-6b66b0105?challengeId=AQFAkq1JR331bwAAAXcANvweeO8" rel="noreferer">LinkedIn</a>
                 </div>
 
                 <div style={{animationDelay:"0.5s"}}>
-                    <AiFillAmazonCircle />
-                    <p>Amazon</p>
+                    <TiMail />
+                    <a href="mailto:vjtialumni@gmail.com" rel="noreferer">Mail</a>
                 </div>
 
                 <div style={{animationDelay:"0.7s"}}>
-                    <AiFillYoutube />
-                    <p>Youtube</p>
+                    <TiSocialTwitter />
+                    <a target="_blank" href="https://in.linkedin.com/in/vjti-alumni-association-6b66b0105?challengeId=AQFAkq1JR331bwAAAXcANvweeO8" rel="noreferer">Twitter</a>
                 </div>
 
                 <div style={{animationDelay:"0.3s"}}>
                     <AiFillInstagram />
-                    <p>Instagram</p>
+                    <a target="_blank" href="https://www.instagram.com/vjti_aa/" rel="noreferer">Instagram</a>
                 </div>
             </article>
         </div>
@@ -69,4 +70,5 @@ const Home = () => {
     </>
   )
 }
-export default Home
+
+export default Home;
