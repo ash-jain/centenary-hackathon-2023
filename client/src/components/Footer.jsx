@@ -6,17 +6,18 @@ const Footer = () => {
     <div className="footerr">
 
         <div id='rights'>
-            <h1>TechyStar</h1>
+            <h1>VJTI Alumni Association</h1>
             <p>@all right reserved</p>
         </div> 
 
          <div>
-            <h5>Follow Us</h5>
+            <h5>Get in Touch</h5>
 
             <div id='adB'>
-                <a href="https://www.youtube.com">Youtube</a>
-                <a href="https://www.instagram.com/psbhoite">Instagram</a>
-                <a href="https://www.github.com/psbhoite">Github</a>
+                <a href="https://in.linkedin.com/in/vjti-alumni-association-6b66b0105?challengeId=AQFAkq1JR331bwAAAXcANvweeO8">Mail</a>
+                <a href="">LinkedIn</a>
+                <a href="">Github</a>
+                <a href="https://twitter.com/vjti_alumni?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3">Twitter</a>
             </div> 
         </div> 
    </div>

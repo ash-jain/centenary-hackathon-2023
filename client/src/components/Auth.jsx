@@ -10,10 +10,10 @@ const Auth = () => {
       <div className="auth">
         <main>
           <div>
-            <button className="login-btn" onClick = { () => setSwitcher(true) }>
+            <button className={switcher ? "deactivated": ""} onClick = { () => setSwitcher(true) }>
               Login
             </button>
-            <button className="register-btn" onClick = { () => setSwitcher(false) }>
+            <button className={!switcher ? "deactivated": ""} onClick = { () => setSwitcher(false) }>
               Register
             </button>
           </div>

@@ -13,8 +13,6 @@
     background-color: $first;
     height: 40rem;
     width: 70%;
-    padding: 3rem;
-    border-radius: 0 200px 200px 0;
 
     > div {
       width: 100%;
@@ -22,6 +20,14 @@
 
       > button {
         width: 50%;
+        height: 5rem;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      > .deactivated {
+        background-color: $third;
       }
     }
 
